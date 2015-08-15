@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Bacon -->
+  <project name="DJLaMontagneIII/device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="master" />
+  <project name="DJLaMontagneIII/device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="master" />
+  <project name="SlimSaber/device_oppo_common" path="device/oppo/common" remote="github" revision="lp5.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
+  <project name="DJLaMontagneIII/kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="master" />
+  <project name="SlimSaber/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="lp5.1" />
+  <project name="SlimSaber/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lp5.1" />
+
+  <!-- Repos -->
+  <remove-project name="SlimSaber/frameworks_base" />
+  <remove-project name="SlimSaber/packages_apps_Settings" />
+  <remove-project name="SlimSaber/packages_apps_SlimOTA" />
+  <remove-project name="SlimSaber/vendor_slim" />
+  <project name="DJLaMontagneIII/frameworks_base" path="frameworks/base" remote="github" revision="master" />
+  <project name="DJLaMontagneIII/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="master" />
+  <project name="DJLaMontagneIII/vendor_slim" path="vendor/slim" remote="github" revision="master" />
+
+
+  <!-- Toolchains -->
+  <project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" />
+  <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" remote="github" revision="master" />
+</manifest>
