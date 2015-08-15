@@ -19,7 +19,6 @@
   <project name="DJLaMontagneIII/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="master" />
   <project name="DJLaMontagneIII/vendor_slim" path="vendor/slim" remote="github" revision="master" />
 
-
   <!-- Toolchains -->
   <project name="SlimSaber/uber_arm-androideabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-cortex-a15" remote="github" revision="master" />
   <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-cortex-a15" remote="github" revision="master" />
