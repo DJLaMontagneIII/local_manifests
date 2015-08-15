@@ -14,6 +14,7 @@
   <remove-project name="SlimSaber/packages_apps_Settings" />
   <remove-project name="SlimSaber/packages_apps_SlimOTA" />
   <remove-project name="SlimSaber/vendor_slim" />
+  <remove-project name="SlimSaber/scripts" />
   <project name="DJLaMontagneIII/frameworks_base" path="frameworks/base" remote="github" revision="master" />
   <project name="DJLaMontagneIII/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="master" />
   <project name="DJLaMontagneIII/vendor_slim" path="vendor/slim" remote="github" revision="master" />
