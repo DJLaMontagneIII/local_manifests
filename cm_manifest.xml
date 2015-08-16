@@ -9,11 +9,20 @@
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
 
+  <!-- Repos -->
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project path="frameworks/base" name="DJLaMontagneIII/android_frameworks_base" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="DJLaMontagneIII/android_packages_apps_Settings" revision="cm-12.1" />
+  <project path="vendor/cm" name="DJLaMontagneIII/android_vendor_cm" revision="cm-12.1" />
+
   <!-- Toolchains -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
 
   <!-- Removed Repos -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
