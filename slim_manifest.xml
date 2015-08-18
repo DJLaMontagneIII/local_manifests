@@ -11,12 +11,14 @@
 
   <!-- Repos -->
   <remove-project name="SlimSaber/frameworks_base" />
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
   <remove-project name="SlimSaber/packages_apps_Settings" />
   <remove-project name="SlimSaber/packages_apps_SlimOTA" />
   <remove-project name="SlimSaber/vendor_slim" />
   <remove-project name="SlimSaber/scripts" />
   <project name="DJLaMontagneIII/frameworks_base" path="frameworks/base" remote="github" revision="master" />
   <project name="DJLaMontagneIII/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="master" />
+  <project name="DJLaMontagneIII/viper4android_fx" path="packages/apps/ViPER4Android" remote="github" revision="master" />
   <project name="DJLaMontagneIII/vendor_slim" path="vendor/slim" remote="github" revision="master" />
 
   <!-- Toolchains -->
