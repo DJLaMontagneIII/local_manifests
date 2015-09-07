@@ -11,11 +11,13 @@
 
   <!-- Repos -->
   <remove-project name="CyanogenMod/android_external_sepolicy" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project path="external/sepolicy" name="DJLaMontagneIII/android_external_sepolicy" revision="cm-12.1" />
+  <project path="frameworks/av" name="DJLaMontagneIII/android_frameworks_av" revision="cm-12.1-caf" />
   <project path="frameworks/base" name="DJLaMontagneIII/android_frameworks_base" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="DJLaMontagneIII/android_packages_apps_Settings" revision="cm-12.1" />
   <project path="packages/apps/SnapdragonCamera" name="sultanxda/android_packages_apps_SnapdragonCamera" revision="cm-12.1-caf" />
