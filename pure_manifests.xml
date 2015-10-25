@@ -13,4 +13,15 @@
   <project name="DJLaMontagneIII/viper4android_fx" path="packages/apps/ViPER4Android" remote="github" revision="master" />
   <remove-project name="android_vendor_nexus" />
   <project name="DJLaMontagneIII/android_vendor_nexus" path="vendor/nexus" remote="github" revision="m" />
+
+  <!-- Removed Repos -->
+  <remove-project name="android_device_asus_flo" />
+  <remove-project name="android_device_htc_flounder" />
+  <remove-project name="android_device_lge_hammerhead" />
+  <remove-project name="android_kernel_asus_flo" />
+  <remove-project name="android_kernel_htc_flounder" />
+  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="device/asus/deb" />
+  <remove-project name="proprietary_vendor_asus" />
+  <remove-project name="proprietary_vendor_htc" />
 </manifest>
