@@ -3,11 +3,14 @@
   <remote name="github"
            fetch="https://github.com/" />
 
+  <!-- Shamu -->
   <remove-project name="android_kernel_moto_shamu" />
   <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="m" />
   <remove-project name="android_device_moto_shamu" />
   <project name="DJLaMontagneIII/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="m" />
+
+  <!-- Repos -->
+  <project name="DJLaMontagneIII/viper4android_fx" path="packages/apps/ViPER4Android" remote="github" revision="master" />
   <remove-project name="android_vendor_nexus" />
   <project name="DJLaMontagneIII/android_vendor_nexus" path="vendor/nexus" remote="github" revision="m" />
-  <project name="DJLaMontagneIII/viper4android_fx" path="packages/apps/ViPER4Android" remote="github" revision="master" />
 </manifest>
