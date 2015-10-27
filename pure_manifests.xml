@@ -5,9 +5,13 @@
 
   <!-- Shamu -->
   <remove-project name="android_kernel_moto_shamu" />
-  <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="m" />
+  <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="franco" />
   <remove-project name="android_device_moto_shamu" />
   <project name="DJLaMontagneIII/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="m" />
+
+  <!-- Repos -->
+  <remove-project name="android_packages_apps_Settings" />
+  <project name="DJLaMontagneIII/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="m" />
 
   <!-- Removed Repos -->
   <remove-project name="android_device_asus_flo" />
@@ -15,7 +19,7 @@
   <remove-project name="android_device_lge_hammerhead" />
   <remove-project name="android_kernel_asus_flo" />
   <remove-project name="android_kernel_htc_flounder" />
-  <remove-project name="device/lge/hammerhead-kernel" />
+  <remove-project name="android_kernel_lge_hammerhead" />
   <remove-project name="device/asus/deb" />
   <remove-project name="proprietary_vendor_asus" />
   <remove-project name="proprietary_vendor_htc" />
