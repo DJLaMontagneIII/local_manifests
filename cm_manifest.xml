@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Bacon -->
-  <project name="DJLaMontagneIII/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1" />
-  <project name="DJLaMontagneIII/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.1" />
-  <project name="DJLaMontagneIII/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
-  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
+  <!-- Shamu -->
+  <project name="DJLaMontagneIII/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="cm-13.0" />
+  <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 
   <!-- Repos -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="DJLaMontagneIII/android_frameworks_base" revision="cm-13.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project path="frameworks/base" name="DJLaMontagneIII/android_frameworks_base" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="DJLaMontagneIII/android_packages_apps_Settings" revision="cm-12.1" />
-  <project path="vendor/cm" name="DJLaMontagneIII/android_vendor_cm" revision="cm-12.1" />
-
-  <!-- Toolchains -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="SlimSaber/uber_arm-eabi-4.9-cortex-a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
-
-  <!-- Removed Repos -->
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
-  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
-  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
-  <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
-  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.8" />
-  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <project path="packages/apps/Settings" name="DJLaMontagneIII/android_packages_apps_Settings" revision="cm-13.0" />
+    <!-- <remove-project name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cm" name="DJLaMontagneIII/android_vendor_cm" revision="cm-13.0" /> -->
 </manifest>
