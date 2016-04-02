@@ -5,12 +5,6 @@
   <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 
-   <!-- Hammerhead -->
-  <project name="DJLaMontagneIII/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="github" revision="cm-13.0" />
-  <project name="DJLaMontagneIII/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-13.0-caf" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-13.0" />
-
    <!-- Repos -->
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/base" name="DJLaMontagneIII/android_frameworks_base" revision="cm-13.0" />
