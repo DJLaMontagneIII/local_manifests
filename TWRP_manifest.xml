@@ -1,0 +1,7 @@
+<manifest>
+<project name="DJLaMontagneIII/device_moto_shamu" path="device/moto/shamu" remote="github" revision="TWRP-mm6.0"/>
+<project name="AICP/kernel_moto_shamu" path="kernel/moto/shamu" remote="aicp" revision="mm6.0"/>
+<project name="AICP/proprietary_vendor_motorola" path="vendor/motorola" remote="aicp" revision="mm6.0"/>
+<remove-project name="CyanogenMod/android_bootable_recovery"/>
+<project name="DJLaMontagneIII/android_bootable_recovery" path="bootable/recovery" remote="github" revision="TWRP-mm6.0"/>
+</manifest>
