@@ -7,5 +7,5 @@
 
    <!-- Repos -->
   <remove-project name="CyanogenMod/android_bootable_recovery" />
-  <project name="DJLaMontagneIII/android_bootable_recovery" path="bootable/recovery" remote="github" revision="TWRP-mm6.0" />
+  <project name="DJLaMontagneIII/android_bootable_recovery" path="bootable/recovery" remote="github" revision="TWRP-mm6.0-Dev" />
 </manifest>
