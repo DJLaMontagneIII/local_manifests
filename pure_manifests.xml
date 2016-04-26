@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github"
-           fetch="https://github.com/" />
-
   <!-- Shamu -->
   <remove-project name="android_kernel_moto_shamu" />
-  <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="mm" />
+  <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="android-msm-shamu-3.10-marshmallow-mr2" />
   <remove-project name="android_device_moto_shamu" />
   <project name="DJLaMontagneIII/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="mm" />
-
-  <!-- Repos -->
-  <remove-project name="android_packages_apps_Settings" />
-  <project name="DJLaMontagneIII/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm-cmte" />
 
   <!-- Removed Repos -->
   <remove-project name="android_device_asus_flo" />
@@ -19,7 +12,7 @@
   <remove-project name="android_device_asus_deb" />
   <remove-project name="proprietary_vendor_asus" />
   <remove-project name="android_device_htc_flounder" />
-  <remove-project name="device/htc/flounder-kernel" />
+  <remove-project name="android_kernel_htc_flounder" />
   <remove-project name="proprietary_vendor_htc" />
   <remove-project name="android_device_huawei_angler" />
   <remove-project name="android_kernel_huawei_angler" />
