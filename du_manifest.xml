@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remote Repos -->
+  <remote name="bitbucket"
+           fetch="https://bitbucket.org/" />
+
+  <!-- Shamu -->
   <project name="DJLaMontagneIII/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="n" />
   <project name="DJLaMontagneIII/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="n" />
   <project name="DJLaMontagneIII/android_vendor_motorola" path="vendor/motorola" remote="github" revision="n" />
+
+  <!-- Replaced Repos -->
+  <remove-project name="android_build" />
+  <project path="build" name="DJLaMontagneIII/android_build" remote="github" revision="n" />
+  <remove-project name="android_vendor_du" />
+  <project path="vendor/du" name="DJLaMontagneIII/android_vendor_du" remote="github" revision="n" />
+
+  <!-- Toolchain -->
+  <remove-project name="arm-eabi-4.8" />
+  <project name="DespairFactor/arm-eabi-4.9-linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
+
+  <!-- Removed Repos -->
+  <remove-project name="android_packages_apps_Calendar" />
+  <remove-project name="android_packages_apps_CalendarWidget" />
+  <remove-project name="android_packages_apps_DeskClock" />
+  <remove-project name="android_packages_apps_Gallery2" />
 </manifest>
